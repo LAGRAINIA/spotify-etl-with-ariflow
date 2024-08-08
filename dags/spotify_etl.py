@@ -41,8 +41,8 @@ def check_if_valid_data(df: pd.DataFrame) -> bool:
 
 def run_spotify_etl():
     DATABASE_LOCATION = "sqlite:///my_played_tracks.sqlite"
-    USER_ID = ''
-    TOKEN = ''
+    USER_ID = 'qkjaxsjwqt1zuy1wzk7h1c97q'
+    TOKEN = 'BQD0M2deh6mzAo0CfjA0a0P-4lxNKwF0_ZDgkKWz1yGVnXjY8YOCI9IQ72aBzc07DnHFlEf9fUwMNjiae0dF3sE0wLFK_WROTMo33b6clOqho5Z4LhwwdMWYsnd8--Ate4L-DzJ6g0feLAGPLDheVKJB1ne8kHEOp9KVLFdjABGaxkKZqvpVk2wa9UvTcbVELE7tXic5nkNQcmJ3'
 
       # Extract part of the ETL process
  
